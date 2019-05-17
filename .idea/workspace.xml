@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47b442c3-85ff-4383-91d0-8aa1448d2e09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/images/portfolio/image-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/source/images/portfolio/image-7.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/about/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/about/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/about/desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/about/desktop.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/about/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/about/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/about/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/about/tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/contact/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/contact/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/contact/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/contact/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/contact/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/contact/tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/header/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/header/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/header/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/header/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/header/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/header/tablet.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles/components/portfolio/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/portfolio/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/portfolio/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/portfolio/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/portfolio/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/portfolio/tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/service/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/service/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/service/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/service/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/service/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/service/tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/slide/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/slide/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/slide/mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/slide/mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/components/slide/tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/components/slide/tablet.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,25 +16,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/components/portfolio/base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+            <state relative-caret-position="181">
+              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="268" column="22" lean-forward="true" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+            <state relative-caret-position="244">
+              <caret line="286" column="32" lean-forward="true" selection-start-line="286" selection-start-column="32" selection-end-line="286" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/styles/components/contact/base.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>contac</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,8 +104,8 @@
         <option value="$PROJECT_DIR$/source/styles/components/slide/mobile.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/slide/tablet.scss" />
         <option value="$PROJECT_DIR$/source/styles/components/portfolio/tablet.scss" />
-        <option value="$PROJECT_DIR$/source/styles/components/portfolio/base.scss" />
         <option value="$PROJECT_DIR$/source/index.html" />
+        <option value="$PROJECT_DIR$/source/styles/components/portfolio/base.scss" />
       </list>
     </option>
   </component>
@@ -164,6 +158,14 @@
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="personal-project-scss" type="b2602c69:ProjectViewProjectNode" />
+              <item name="personal-project-scss" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-project-scss" type="b2602c69:ProjectViewProjectNode" />
@@ -253,18 +255,18 @@
       <workItem from="1558036565501" duration="15144000" />
       <workItem from="1558082490687" duration="10222000" />
       <workItem from="1558102071230" duration="12171000" />
-      <workItem from="1558123257590" duration="1039000" />
+      <workItem from="1558123257590" duration="1983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105228000" />
+    <option name="totallyTimeSpent" value="106172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1021" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.1797575" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49943247" visible="true" weight="0.1797575" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.50056756" side_tool="true" weight="0.24986821" />
@@ -279,7 +281,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3291714" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.28036323" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28036323" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -351,13 +353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/contact/base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2332">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -605,17 +600,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/components/portfolio/base.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/components/contact/base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
+        <state relative-caret-position="294">
+          <caret line="47" column="32" lean-forward="true" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="268" column="22" lean-forward="true" selection-start-line="268" selection-start-column="22" selection-end-line="268" selection-end-column="22" />
+        <state relative-caret-position="244">
+          <caret line="286" column="32" lean-forward="true" selection-start-line="286" selection-start-column="32" selection-end-line="286" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/components/portfolio/base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
         </state>
       </provider>
     </entry>
