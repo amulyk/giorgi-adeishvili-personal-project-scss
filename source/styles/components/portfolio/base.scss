@@ -15,12 +15,12 @@ body {
     margin-bottom: 94px;
     padding-top: 109px;
 
-    .portfolioWrap {
+    .portfolio-wrap {
         display: flex;
         justify-content: center;
         margin-bottom: 84px;
 
-        .portfolioHeader {
+        .portfolio-header {
 
             h1 {
                 margin-left: 12px;
@@ -61,12 +61,77 @@ body {
     .wrap {
         display: grid;
         grid-gap: 6px;
-        grid-template-areas:
-            'col1 col1 col2 col3 col3'
-            'col4 col5 col5 col6 col7';
+        grid-template-areas: 'col1 col1 col2 col3 col3' 'col4 col5 col5 col6 col7';
         grid-template-columns: 19.5% 20.1% 19.6%;
         width: 100%;
         height: 39.85vw;
+
+        .hover {
+            display: none;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+
+            a {
+                z-index: 1;
+                margin-right: 11px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .transparency {
+                display: inline-block;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: .5;
+                background-color: #1F1F1F;
+
+            }
+
+            .hover-text {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                height: 20%;
+                background-color: $color-3;
+
+                h2 {
+                    position: absolute;
+                    top: 28%;
+                    left: 50%;
+                    width: 100%;
+                    transform: translate(-50%, -50%);
+                    color: $color-15;
+                    font-family: 'Raleway Semi Bold', sans-serif;
+                    font-size: 1vw;
+                    font-weight: 400;
+                    line-height: 28.96px;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    position: absolute;
+                    bottom: -8px;
+                    left: 50%;
+                    width: 100%;
+                    transform: translate(-50%, -50%);
+                    color: $color-4;
+                    font-family: 'Raleway Semi Bold', sans-serif;
+                    font-size: .8vw;
+                    font-style: italic;
+                    font-weight: 600;
+                    line-height: 28.96px;
+                    text-align: center;
+                }
+            }
+        }
 
         .cell {
             display: flex;
@@ -75,10 +140,13 @@ body {
             justify-content: center;
             width: auto;
             overflow: hidden;
-            resize: both;
+            background: #1F1F1F;
 
-            img {
+            &:hover {
 
+                .hover {
+                    display: flex;
+                }
             }
         }
 

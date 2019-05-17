@@ -1,6 +1,6 @@
 .about {
 
-    .whoWeAre {
+    .who-we-are {
         width: 100%;
     }
 
@@ -9,13 +9,13 @@
         margin: unset;
 
         .poster {
-            width: 100%;
-            margin-right: auto;
+            width: auto;
+            margin-right: 97px;
             padding-left: 20px;
         }
 
-        .textAbout {
-            width: 48%;
+        .text-about {
+            width: auto;
         }
 
         .features {
@@ -23,7 +23,16 @@
             .row {
 
                 .column {
-                    margin-right: 17px;
+                    width: auto;
+                    margin-right: 34px;
+
+                    h2 {
+                        font-size: 1.2vw;
+                    }
+
+                    p {
+                        font-size: 11px;
+                    }
                 }
             }
         }

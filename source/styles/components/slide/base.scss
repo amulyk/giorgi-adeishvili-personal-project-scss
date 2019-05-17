@@ -15,9 +15,25 @@ body {
     justify-content: center;
     width: 100%;
     height: 759px;
-    background: $color-1;
+    overflow: hidden;
 
-    .leftArrow {
+    .slide-background {
+        display: flex;
+        position: absolute;
+        z-index: -1;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        background: $color-1;
+
+        img {
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    .left-arrow {
         display: inline-block;
         position: absolute;
         top: 37%;
@@ -33,7 +49,7 @@ body {
         }
     }
 
-    .rightArrow {
+    .right-arrow {
         display: inline-block;
         position: absolute;
         top: 37%;
