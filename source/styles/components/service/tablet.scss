@@ -1,0 +1,37 @@
+.service {
+    height: 1286px;
+    padding-top: 72px;
+
+    .serviceHeader {
+        margin-bottom: 0;
+
+        h1 {
+            margin-bottom: 13px;
+            margin-left: 0;
+            font-size: 29px;
+            line-height: 32.36px;
+        }
+
+        .gearIcon {
+            margin-left: 0;
+        }
+    }
+
+    .wrap {
+        flex-direction: column;
+        justify-content: unset;
+        width: 100%;
+        height: 1154px;
+        padding-top: 64px;
+        padding-left: 0;
+
+        .container {
+            margin-right: 0;
+            margin-bottom: 74px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

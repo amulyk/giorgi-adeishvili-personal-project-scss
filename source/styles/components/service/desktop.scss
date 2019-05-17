@@ -1,0 +1,15 @@
+.service {
+    width: 100%;
+
+    .wrap {
+        width: 100%;
+
+        .container {
+            margin-right: 4%;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

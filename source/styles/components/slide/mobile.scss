@@ -1,0 +1,41 @@
+.slide {
+    height: 211px;
+
+    .rightArrow,
+    .leftArrow {
+        display: none;
+    }
+
+    .wrap {
+        padding-top: 43px;
+        padding-left: 0;
+
+        .parry {
+            margin-left: -4px;
+            font-size: 25px;
+            letter-spacing: -.2px;
+            line-height: 30px;
+        }
+
+        .love {
+            margin-bottom: 1px;
+            font-size: 30px;
+            letter-spacing: -.9px;
+            line-height: 36px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            margin-left: -4px;
+            font-size: 9px;
+            letter-spacing: -.84px;
+            line-height: 10.8px;
+        }
+
+        a {
+            width: 64px;
+            height: 19px;
+            font-size: 7px;
+        }
+    }
+}

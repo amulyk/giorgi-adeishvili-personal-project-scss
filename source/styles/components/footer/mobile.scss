@@ -1,0 +1,42 @@
+footer {
+    padding-top: 41px;
+    padding-bottom: 31px;
+
+    .wrap {
+
+        .logo {
+            margin-bottom: 30px;
+            margin-left: 3px;
+
+            img {
+                width: 24px;
+                height: 37px;
+            }
+
+            span {
+                margin-left: 1px;
+                font-size: 32px;
+                letter-spacing: .52px;
+            }
+        }
+
+        .icons {
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 70%;
+            margin-bottom: 30px;
+
+            div {
+                margin-bottom: 8px;
+
+                &:last-child {
+                    margin-right: 9px;
+                }
+            }
+        }
+
+        p {
+            margin-left: -20px;
+        }
+    }
+}

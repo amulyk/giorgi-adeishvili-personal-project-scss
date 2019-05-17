@@ -1,0 +1,89 @@
+@import '../../palette';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.portfolio {
+    width: 100%;
+    height: auto;
+    margin-bottom: 94px;
+    padding-top: 109px;
+
+    .portfolioWrap {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 84px;
+
+        .portfolioHeader {
+
+            h1 {
+                margin-left: 12px;
+                color: #323232;
+                font-family: 'Raleway Semi Bold', sans-serif;
+                font-size: 31px;
+                font-weight: 400;
+                letter-spacing: -.7px;
+                line-height: 34px;
+                text-transform: uppercase;
+            }
+
+            .iconCase {
+                display: flex;
+                justify-content: center;
+                padding-top: 9px;
+                padding-left: 14px;
+
+                &::before,
+                &::after {
+                    content: '';
+                    display: flex;
+                    width: 38px;
+                    height: 1px;
+                    margin-top: 8px;
+                    margin-right: 10px;
+                    background: #D3D3D3;
+                }
+
+                &::after {
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    .wrap {
+        display: grid;
+        grid-gap: 6px;
+        grid-template-areas:
+            'col1 col1 col2 col3 col3'
+            'col4 col5 col5 col6 col7';
+        grid-template-columns: 19.5% 20.1% 19.6%;
+        width: 100%;
+        height: 39.85vw;
+
+        .cell {
+            display: flex;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            overflow: hidden;
+            resize: both;
+
+            img {
+
+            }
+        }
+
+        @for $i from 1 through 7 {
+            .col#{$i} { grid-area: col + $i; }
+        }
+    }
+}

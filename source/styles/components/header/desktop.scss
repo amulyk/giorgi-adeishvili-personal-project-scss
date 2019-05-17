@@ -1,3 +1,22 @@
-.header {
+header {
 
+    .wrap {
+        width: 100%;
+
+        .logo {
+            margin-right: 24%;
+        }
+
+        .menu {
+            width: auto;
+
+            a {
+                margin-right: 5.4%;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
 }

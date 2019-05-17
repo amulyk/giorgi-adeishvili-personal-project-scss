@@ -1,3 +1,41 @@
-.header {
-    background: green;
+header {
+    height: 108px;
+
+    .wrap {
+
+        .logo {
+            display: flex;
+            width: 130px;
+            margin-right: 302px;
+            padding-top: 1px;
+            padding-left: 3px;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .navMobile {
+            display: flex;
+            position: absolute;
+            top: 36px;
+            right: 27px;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: center;
+            width: 54px;
+            height: 39px;
+            outline: 2px solid $color-2;
+            outline-offset: -4px;
+            background: $color-4;
+            text-align: center;
+            text-decoration: none;
+
+            &::before {
+                content: '\f0c9';
+                color: $color-2;
+                font-family: 'FontAwesome', sans-serif;
+            }
+        }
+    }
 }

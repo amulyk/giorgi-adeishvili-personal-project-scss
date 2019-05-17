@@ -9,30 +9,31 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-header {
+footer {
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 101px;
+    height: auto;
+    padding-top: 47px;
+    padding-bottom: 54px;
     background: $color-3;
 
     .wrap {
         display: flex;
+        flex-direction: column;
         flex-wrap: nowrap;
-        width: 1200px;
+        align-items: center;
+        justify-content: center;
+        width: 327px;
         max-width: 100%;
-        height: 100%;
-        padding-top: 27px;
-        padding-left: 21px;
-
-        .navMobile {
-            display: none;
-        }
+        height: auto;
+        padding-left: 14px;
 
         .logo {
             display: flex;
             width: 130px;
-            margin-right: 302px;
+            margin-bottom: 35px;
+            margin-left: 11px;
 
             img {
                 width: 27px;
@@ -40,7 +41,7 @@ header {
             }
 
             span {
-                margin-left: 1px;
+                margin-left: -2px;
                 color: $color-2;
                 font-family: 'Raleway', sans-serif;
                 font-size: 36px;
@@ -51,25 +52,33 @@ header {
             }
         }
 
-        .menu {
+        .icons {
             display: flex;
-            width: 740px;
-            margin-top: 12px;
+            flex-direction: row;
+            margin-bottom: 45px;
 
-            a {
-                margin-right: 40px;
-                color: $color-2;
-                font-family: 'Open Sans', sans-serif;
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 21.36px;
-                text-decoration: none;
-                text-transform: uppercase;
+            div {
+                display: flex;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                margin-right: 9px;
+                border-radius: 3px;
+                background: $color-13;
 
                 &:last-child {
                     margin-right: 0;
                 }
             }
+        }
+
+        p {
+            color: $color-14;
+            font-family: 'Raleway', sans-serif;
+            font-size: 11px;
+            font-weight: 400;
+            letter-spacing: .18px;
+            line-height: 21.36px;
         }
     }
 }

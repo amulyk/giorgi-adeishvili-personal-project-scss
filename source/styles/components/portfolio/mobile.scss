@@ -1,0 +1,41 @@
+.portfolio {
+    margin-bottom: 36px;
+    padding-top: 39px;
+
+    .portfolioWrap {
+        margin-bottom: 34px;
+
+        .portfolioHeader {
+
+            h1 {
+                margin-bottom: 6px;
+                margin-left: 0;
+                font-size: 27px;
+                line-height: 29.98px;
+            }
+
+            .iconCase {
+                padding-top: 6px;
+                padding-left: 0;
+            }
+        }
+    }
+
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        width: 88%;
+        height: 213vw;
+        margin: auto;
+
+        .col5,
+        .col6,
+        .col7 {
+            display: none;
+        }
+
+        .cell {
+            margin-bottom: 10px;
+        }
+    }
+}

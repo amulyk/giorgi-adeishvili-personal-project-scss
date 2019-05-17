@@ -1,0 +1,31 @@
+.about {
+
+    .whoWeAre {
+        width: 100%;
+    }
+
+    .wrap {
+        width: 100%;
+        margin: unset;
+
+        .poster {
+            width: 100%;
+            margin-right: auto;
+            padding-left: 20px;
+        }
+
+        .textAbout {
+            width: 48%;
+        }
+
+        .features {
+
+            .row {
+
+                .column {
+                    margin-right: 17px;
+                }
+            }
+        }
+    }
+}

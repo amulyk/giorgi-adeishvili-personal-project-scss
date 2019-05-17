@@ -1,3 +1,50 @@
-.header {
-    background: yellow;
+header {
+    height: 69px;
+
+    .wrap {
+        width: 100%;
+        padding-top: 16px;
+        padding-left: 19px;
+
+        .logo {
+
+            img {
+                width: 22px;
+                height: 31px;
+            }
+
+            span {
+                margin-top: -6px;
+                margin-left: -1px;
+                font-size: 27px;
+            }
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .navMobile {
+            display: flex;
+            position: absolute;
+            top: 18px;
+            right: 20px;
+            flex-shrink: 0;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 31px;
+            outline: 2px solid $color-2;
+            outline-offset: -4px;
+            background: $color-4;
+            text-align: center;
+            text-decoration: none;
+
+            &::before {
+                content: '\f0c9';
+                color: $color-2;
+                font-family: 'FontAwesome', sans-serif;
+            }
+        }
+    }
 }

@@ -1,0 +1,62 @@
+.contact {
+    padding-bottom: 44px;
+
+    .wrap {
+        width: 100%;
+
+        .contactHeader {
+            margin-bottom: 37px;
+            padding-left: 0;
+
+            h1 {
+                margin-bottom: 6px;
+                font-size: 27px;
+            }
+        }
+
+        .contactInfo {
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 37px;
+
+            div {
+                margin-right: 0;
+                margin-bottom: 34px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .form {
+            max-width: 88%;
+            padding-left: 0;
+
+            .row2 {
+                flex-direction: column;
+                width: 99.7%;
+                margin-bottom: 2px;
+
+                input {
+                    width: 100%;
+                    margin-right: 0;
+                    margin-bottom: 9px;
+                }
+            }
+
+            .row3 {
+                width: 99.7%;
+
+                input {
+                    margin-bottom: 9px;
+                }
+
+                textarea {
+                    height: 141px;
+                    margin-bottom: 13px;
+                }
+            }
+        }
+    }
+}
